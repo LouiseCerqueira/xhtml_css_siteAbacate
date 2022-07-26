@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+    <head>
+        <link rel="icon" href="imagens/icon.png"/>
+        <title>Abacate</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+        
+        
+        <style type="text/css">
+            /* CONFIG GERAL*/
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: cursive;
+            }
+            body{                                                                 /*seletor para o body*/
+                background-color:rgba(211, 202, 202, 0.384);                    /*regra do css*/ 
+            } 
+            a{                                                                     /*mantém os links sem cor azul ou sublinhado*/
+                text-decoration: none;
+                color: inherit;
+            }
+            .c_floatleft{
+                float: left;
+            }
+            .c_floatright{
+                float: right;
+            }
+            /*CABEÇALHO*/
+            .c_cabecalho{
+                padding-top: 2%;
+                height: 125px;
+                padding-left: 13%;
+            }
+            #d_cabecalho{
+                text-align: right;
+                font-size: 800%;
+                font-family: 'Josefin Sans', sans-serif;
+                font-style: oblique;
+                height: 50px;
+                width: 60%;
+            }
+            #d_info{                                                                  /*links que aparecem no cabeçalho*/
+                font-family:fantasy;
+                font-style: oblique;
+                text-align: center;
+                width: 250px;
+                padding-top: 50px;
+                padding-left: 1%;
+            }
+
+            /*MENU*/
+            .c_menu.c_floatleft {
+                text-align: center;
+                color: white;
+                font-size: 25px;
+                height: 10px;
+                width: 150px;
+                padding-top: 2%;
+
+            }
+            #d_menu {                
+                background-color:rgb(43, 121, 43);
+                height: 90px;
+                padding-top: 1%;
+                padding-left: 35%;
+            }
+            .c_subtopicos{
+                text-align: center;
+                font-size: 300%;
+                padding-left: 3%;
+                padding-right: 3%;
+                height: 1150px;
+            }
+
+            /*SUBTOPICOS*/
+            .c_categorias {
+                height: 150px;
+            
+            }
+            .c_topico{
+                padding-top: 50px;
+                height: 300px;
+            }
+            .c_titulotopicos.c_floatright {
+                width: 72%;
+                font-size: 40px;
+                text-align: center;
+                padding-bottom: 1%
+            }
+            .c_textotopicos.c_floatright {
+                width: 72%;
+                font-size: 22px;
+                text-align: justify
+            }
+            #d_titulotopicosmulher{
+                width: 72%;
+                font-size: 40px;
+                text-align: center;
+                padding-bottom: 1%;
+                float:left
+
+            }
+            #d_textotopicosmulher {
+                width: 72%;
+                font-size: 22px;
+                text-align: justify;
+                float: left;
+            }
+            .c_imagens.c_floatleft{
+                padding-top: 5%;
+                width: 25%; 
+            }
+            #d_mulher{
+                padding-top: 5%;
+                width: 25%; 
+                float: right;
+            }
+            .c_apostilas {
+                float: left;
+                background-color: white;
+                margin: 1%; 
+                width: 37.5%; 
+                height: 400px; 
+                border-radius: 0.1em;
+                border-style: groove;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 3%;
+                text-align: justify;
+                font-size: 80%
+    
+            }   
+            #d_artigos{
+                height: 1800px;
+            }
+            .c_texto{
+                font-size: 60%;
+                text-align: justify;
+                font-size: 22px;
+                padding-top: 8%;
+            }  
+             
+            .c_title {
+                padding-top: 150px;
+                padding-left: 33px;
+                padding-right: 33px;
+                width: 250px;
+                height: 100px;
+                float: left;
+                text-align:justify;
+                font-size: 40%
+            }
+            #d_links{
+                height: 550px;
+            }
+
+            .c_links {
+                text-align: justify;
+                font-size: 70%;
+                color:rgb(73, 75, 73)
+            }
+            .c_rodape{
+                background-color:rgb(43, 121, 43);
+                text-align: center;
+                color: white;
+                font-size: 20px;
+                padding-top: 3%;
+                height: 90px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <!--CABEÇALHO DA PÁGINA OK-->
+        <div class="c_cabecalho"> 
+            <div id = 'd_cabecalho' class="c_floatleft">Abacate</div>
+            <div id = 'd_info' class="c_floatleft">
+                <a href="mailto:br07louise.ll@gmail.com" ><img src="imagens/gmail.png" alt = "gmail"/>br07louise.ll@gmail.com</a> <!--target="_blank"-->
+                <br/>
+                <a href="https://www.linkedin.com/in/louise-cerqueira-b432b81b8" > <img src="imagens/linkedin.png" alt = 'linkedin'/>Louise Cerqueira</a>
+                <a href="https://github.com/LouiseCerqueira" ><img src="imagens/github.png" alt='github'/>GitHub</a>
+            </div>
+            
+        </div>
+        <!--CABEÇALHO DA PÁGINA OK-->
+
+
+        <!--MENU/NAVEGAÇÃO OK-->
+        <div id = 'd_menu'>
+            <div class = 'c_menu c_floatleft'><a href="#d_informacoes">  Informações </a></div>
+            <div class = 'c_menu c_floatleft'> <a href="#d_artigos">Artigos</a> </div>
+            <div class = 'c_menu c_floatleft'><a href="#d_links">  Links </a></div>
+        </div>
+        <!--MENU/NAVEGAÇÃO OK-->
+
+
+        <!--CATEGORIA INFORMAÇÕES OK-->
+        <div class='c_subtopicos' id = 'd_informacoes'>
+            <div class = 'c_categorias'> Informações </div>
+            <div class = 'c_topico'>
+                <img class = 'c_floatleft c_imagens'src="imagens/abacatecapa.jpg" alt = 'abacate'/>
+                <div class = 'c_titulotopicos c_floatright'>História</div>
+                <p class = 'c_textotopicos c_floatright'>
+                    Historiadores acreditam que o abacate chegou ao Brasil no século 16. “Relatos apontam os intercâmbios alimentares promovidos pelos europeus como os responsáveis pela disseminação do fruto, que é nativo do México e da América Central”, diz o engenheiro agrônomo Tadeu Graciolli Guimarães.                 
+                    “As variedades que conhecemos derivam de três raças, a mexicana, a guatemalense e a antilhana”, afirma o engenheiro agrônomo Adelson Francisco de Oliveira. 
+                </p>    
+            </div>
+            <div class = 'c_topico'>
+                <img id = 'd_mulher' src="imagens/abacatemulher.jpg"alt = 'abacate'/>
+                <div class = 'd_titulotopicosmulher'>Curiosidade</div>
+                <p id = 'd_textotopicosmulher'>
+                    O abacate é um alimento que já sofreu muitos julgamentos devido a sua quantidade de gordura, mas você sabia que a maior parte delas são monoinsaturadas, ou seja, fazem bem para o organismo? As calorias do abacate dependerão do tamanho da fruta. Em 100 g do alimento, há 96 calorias e 8,4 g de gordura. Além disso, ele contém fibras, vitaminas do complexo B, K e C, além de potássio e cobre. Há muitos tipos diferentes de abacates, variando em cor, tamanho e forma.
+                          
+                </p>
+            </div>
+            
+            <div class = 'c_topico'>
+                <img class = 'c_floatleft c_imagens'src="imagens/abacatecartoon.jpeg"alt = 'abacate'/>
+                <div class = 'c_titulotopicos c_floatright'>Benefícios</div>                
+                <p class = 'c_textotopicos c_floatright'>
+                    O abacate apresenta três vezes mais potássio do que a banana e esse mineral combate o sódio no organismo e diminui a pressão arterial.
+                    O alimento diminui o cortisol, hormônio do estresse, contribui para o funcionamento do intestino, possui antioxidantes como os carotenóides luteína e zeaxantina, que são extremamente importantes para a saúde dos olhos. Ajuda a perder peso, e os minerais presentes no abacate, como zinco, fósforo, cobre, cálcio e selênio são benéficos para os ossos, diminuindo o risco de osteoporose.
+                </p>                      
+            </div>
+        </div> 
+        <!--CATEGORIA INFORMAÇÕES OK-->
+
+
+        <!--CATEGORIA ARTIGOS OK-->
+        <div class='c_subtopicos' id = 'd_artigos'>
+            <div class = 'c_categorias'> Artigos </div>
+            <div class="c_apostilas"> 
+                <a href="artigos/PerseaAmericanaMill.pdf" ><!--target="_blank"-->
+                    <img class = 'c_floatright' src="imagens/download.png"alt = 'download'/>
+                </a>
+                Persea americana
+                <p class="c_texto">
+                    <a href="artigos/PerseaAmericanaMill.pdf" >
+                        Efeito do abacate (Persea americana Mill) variedade hass na lipidemia de ratos hipercolesterolêmicos. Os fitonutrientes podem ser encontrados em muitas frutas, sendo o abacate o mais rico em beta-sitosterol (fitoesterol) e glutationa. 
+                    </a>  
+                </p>         
+            </div>
+            <div class="c_apostilas">
+                <a href="artigos/PolpaAbacate.pdf"> 
+                    <img class = 'c_floatright'src="imagens/download.png"alt = 'download'/>
+                </a>
+                    Polpa de ‘HASS’
+                <p class="c_texto">
+                    <a href="artigos/PolpaAbacate.pdf"> 
+                        Composição química e atividade antioxidante da polpa e resíduos de abacate ‘HASS’.O abacate é um fruto muito nutritivo, sendo a polpa a principal parte utilizada para consumo
+                        in natura, na forma de sobremesa, saladas, molhos e cosméticos, além de ser utilizada para extração de
+                        óleo
+                    </a>
+                </p>
+            </div>
+            <div class="c_apostilas">
+                <a href="artigos/ComposicaoCascas.pdf" >
+                    <img class = 'c_floatright'src="imagens/download.png"alt = 'download'/>
+                </a>    
+                Composição cascas
+                <p class="c_texto">
+                    <a href="artigos/ComposicaoCascas.pdf" >                        
+                        Informações sobre a composição de alimentos de origem agrícola cultivados em solos brasileiros são escassas, e mais ainda de
+alimentos provenientes do Nordeste. O desconhecimento dos princípios nutritivos dos alimentos induz ao mau aproveitamento e desperdício.
+                    </a>
+                </p>
+            </div>
+            <div class="c_apostilas" >
+                <a href="artigos/AcaoAntibacteriana.pdf" >
+                    <img class = 'c_floatright'src="imagens/download.png"alt = 'download'/>
+                </a>    
+                    Ação Antibacteriana
+                <p class="c_texto">
+                    <a href="artigos/AcaoAntibacteriana.pdf" >
+                        O consumo de uma única colher por dia de óleo de abacate, traz benefícios como, controle de radicais livres, regulação da pressão, redução da absorção do LDL (o colesterol ruim), melhora a artrite, fortalecimento dos olhos e do sistema nervoso.
+                    </a>
+                </p>
+            </div>
+            <div class="c_apostilas" >
+                <a href="artigos/Farinha.pdf" >
+                    <img class = 'c_floatright'src="imagens/download.png"alt = 'download'/>
+                </a>    
+                Farinha
+                <p class="c_texto">
+                    <a href="artigos/Farinha.pdf" >
+                        Elaboração de biscoito integral utilizando óleo e farinha da polpa de abacate. O abacate (Persea americana), fruto tropical e subtropical, é originário da América Central,
+                        mais especificamente da Guatemala, Antilhas e México. A polpa desse fruto contém elevados teores de lipídios.
+                    </a>
+                </p>
+            </div>
+            <div class="c_apostilas" >
+                <a href="artigos/EvolucaoProducao.pdf" >
+                    <img class = 'c_floatright'src="imagens/download.png"alt = 'download'/>
+                </a>    
+                Evolução: Produção
+                <p class="c_texto">
+                    <a href="artigos/EvolucaoProducao.pdf" >
+                        Evolução da produção mundial e nacional de abacate. As principais cultivares comercializadas no país são: Breda, Fortuna, Geada, Margarida e Quintal. As
+                        mais utilizadas para exportação são a Fuerte, Hass, conhecido no Brasil como Avocado, sendo mais valorizadas no mercado. 
+                    </a>
+                </p>
+            </div>
+            <div class="c_apostilas" >
+                <a href="artigos/Valorizacao.pdf" >
+                    <img class = 'c_floatright'src="imagens/download.png"alt = 'download'/>
+                </a>    
+                Valorização: frutas                    
+                <p class="c_texto">
+                    <a href="artigos/Valorizacao.pdf" >
+                        Uma celebração em 2021, promovida pela Organização das Nações Unidas para a Alimentação e a Agricultura (FAO), é o Ano Internacional das Frutas, Legumes e Verduras (AIFLV), que traz como objetivo criar
+consciência sobre os benefícios do consumo de mais frutas e vegetais.
+                    </a>
+                </p>
+            </div>
+            <div class="c_apostilas" >
+                <a href="artigos/Corante.pdf" >
+                    <img class = 'c_floatright'src="imagens/download.png"alt = 'download'/>
+                </a>    
+                Corante Natural
+                <p class="c_texto">
+                    <a href="artigos/Corante.pdf" >
+                        Obtenção de corante natural a partir de caroço de Abacate. No grupo de corantes, os carotenoides são os principais pigmentos naturais responsáveis pelas colorações amarela, laranja ou vermelha de muitos alimentos.                      
+                    </a>
+                </p>
+                
+            </div>
+        </div>
+        <!--CATEGORIA ARTIGOS OK-->
+
+
+        <!--CATEGORIA LINKS -->
+        <div class='c_subtopicos' id = 'd_links'>
+            <div class = 'c_categorias'> Links </div>
+            <div class="c_title">
+                <img class = 'c_floatleft'src="imagens/bibliografia.png"alt = 'bibliografia'/> 
+                Bibliografia 
+                <div class = 'c_links'>                    
+                    <a href="https://saude.abril.com.br/alimentacao/o-abacate-arrasa-veja-os-beneficios-e-como-inclui-lo-nas-refeicoes/" >Veja Saúde</a>
+                    <br/>
+                    <a href="https://www.uol.com.br/vivabem/noticias/redacao/2019/07/05/abacate-e-aliado-da-perda-de-peso-veja-outros-7-beneficios.htm#:~:text=O%20abacate%20%C3%A9%20um%20alimento%20com%20alto%20teor%20de%20gordura,risco%20para%20as%20doen%C3%A7as%20cardiovasculares">Viva Bem Uol</a>
+                </div>
+            </div>
+           
+            <div class="c_title"> 
+                <img class = 'c_floatleft'src="imagens/cozinhando.png" alt = 'cozinhando'/>
+                Receitas
+                <div class = 'c_links'>                    
+                        <a href="https://www.tudogostoso.com.br/receita/146928-mousse-de-abacate.html" >Mousse de Abacate</a>
+                        <br/>
+                        <a href="https://www.tudogostoso.com.br/receita/197367-maionese-de-abacate.html" >Maionese de Abacate</a>
+                        <br/>
+                        <a href="https://www.tudogostoso.com.br/receita/130950-sorvete-de-abacate.html" >Sorvete de Abacate</a>
+                </div>
+            </div>
+              
+            <div class="c_title">
+                <img class = 'c_floatleft'src="imagens/nuvem.png"alt = 'nuvem'/> 
+                Saiba Mais
+                <div class = 'c_links'>
+                    <a href="https://www.youtube.com/watch?v=jRZGqeVb6E4" >Abacate na dieta</a>
+                    <br/>
+                    <a href="https://www.youtube.com/watch?v=Id0ZbNwfT6w" >Massa muscular</a>
+                    <br/>
+                    <a href="https://www.youtube.com/watch?v=8069Yp3ixWo" >Abacate todos os dias</a>
+                    
+                </div>
+            </div>
+            
+            <div class="c_title">
+                <img class = 'c_floatleft'src="imagens/juju.png" alt='Vovó Jujú'/>
+                Vovó Jujú
+                <div class = 'c_links'>
+                    <a href="https://www.youtube.com/watch?v=4wsSwyGMemY" >Já comeu abacate?</a>
+
+                </div>  
+            </div>
+    
+        </div>
+
+
+        <!--RODAPÉ-->
+        <div class="c_rodape">
+            "Come abacate, bem. Abacate é bom." ~ Vovó Jujú
+            <br/>
+            Brenda Cerqueira © 2022
+        </div>
+
+
+    </body>
+</html>
